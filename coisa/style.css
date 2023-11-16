@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(159, 70, 241);
+    font-family: 'Courier New', Courier, monospace;
+}
+h1, h2{
+    color: rgb(0, 255, 0);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+}
+
+#container{
+    background-color: rgb(255, 0, 0);
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 10px 20px 30px rgba(255, 255, 255, 1);
+    border-radius: 25px;
+}
+
+.azul{
+    background-color: aqua !important;
+}
+
+.block{
+    display: block;
+    background-color: rgb(255, 0, 234);
+    padding: 10px;
+}
+
+.inline{
+    display: inline;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.font{
+    font-size: 0px;
+}
+
+.font h2{
+    font-size: 26px;
+}
+
+.inline-block{
+    display: inline-block;
+    color: rgb(197, 243, 255);
+    background-color: rgb(47, 0, 255);
+    text-align: center;
+    font-size: 10px;
+    width: calc(25% -24px);
+    padding: 30px 10px;
+    /*padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 50px;*/
+}
+
+.none{
+    display: none;
+}
+
+#mostrar{
+    background-color: rgb(255, 145, 0);
+    padding: 10px;
+}
+
+ul{
+    list-style-image: url(./baixados.jpg);
+}

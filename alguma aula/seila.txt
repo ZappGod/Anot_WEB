@@ -1,0 +1,159 @@
+<main> -> conteudo do site
+<h1> -> titulo
+<section> -> funciona como sessões (Futebool; basquete)
+<i> -> italico
+<em> -> tag de enfase (fica em italico)
+<b> -> negrito
+<strong> -> texto importante (fica em negrito)
+<nav> -> tela de navegação
+<a> -> para links ----> <a href="#link">LINK NOME</a>
+<aside> -> fica do lado e  pode conter assuntos relacionados, conteudo publicitario, informações contextuais, etc.
+<article> -> artigo geral (Artigo de esporte) --------> ai da pra usar o section como sessões disso (futebol, basquete)
+<blockquote> -> citação / fica meio deslocado
+<footer> -> rodapé
+
+
+
+
+para css
+<span> -> para ser feito em linha (uma palavra, um texto, um paragrafo) -- uma palavra em azul por exemplo
+<div> -> para usar em blocos // divisoria dos blocos // 
+
+
+
+
+<ul> -> lista não odenada (lista que tem a bolinha na frente, um de baixo do outro)
+ <ul type="square"> -> com icon quadrado
+<ol> -> lista ordenada (mesma coisa, so que numerica)
+<ol type="I"> -> muda o tipo (letra, numero romano)
+<li> -> linhas
+&nbsp; -> espaço na tabela ascii
+
+
+<img> -> tag de imagem
+    <img src="bob.jpg" alt="Bob construtor está rebaixado" title="bob construtor rebaixado" width="500" height="100">
+    "../../../img/bob.jpg" -> quando estão em pastas diferente(desce niveis das pastas)
+    src -> procura pelo arquivo e tem que ser o primeiro atributo
+    title -> da um titulo quando coloca o nome encima
+    width -> largura
+    height -> altura
+    alt -> tem duas funções
+        - descrição da imagem (OBRIGATORIO) - para leitura e acessibilidade 
+        - quando a imagem quebra, ele mostra a descrição da imagem
+
+
+
+<u> -> sublinha
+<ins> -> sublinha (texto Inserido)
+<del> -> texto Deletado (risco no meio)
+<mark> -> para marcar (Marcado) tipo marma texto amarelo
+<small> -> deixa pequeno a letra (essa é util)
+<sub> -> texto subscrito(fica um pouquinho pra baixo do meio) fazer H2O
+<sup> -> texto sobescrito(fica um pouquinho pra cima) fazer 2^2 elevado
+<q> -> texto entre Aspas "texto"
+
+
+<a href="./sobre.html">link</a>  -> passa para outra pagina
+<dl> -> lista descritiva
+<dt> -> titulo do que vai escrever
+<dd> -> conteudo que esta escrevendo
+
+
+
+
+<table> -> tabela
+<tr> -> linha de tabela
+<td> -> coluna de tabela
+<th> -> Titulo para celulas
+<th colspan="2">Coluna 1</th> ->ocupa o lugar de duas colunas, se for "3", então 3 colunas
+<td rowspan="2">1.1</td> ->  expande para baixo
+<caption> -> Legenda da tabela
+<colgroup> -> estiliza todas as colunas
+<col> -> coluna
+<col span="3"> -> deixa especifico para a coluna 3
+<col style="background-color: aqua;"> -> estiliza a cor de fundo das colunas
+
+border-collapse: collapse; -> junta as linhas da tabela
+border: 5px solid; -> tamanho da borda
+
+
+<form> -> formulario 
+<label for=""> -> titulo
+<input type="text" name="texto" id="textoID" value=""> -> para colocar barrinha de texto
+name -> variavel nome - back
+id ->  variavel nome - front
+
+disabled -> desabilita inputs, botões, etc e impede que você mexa neles
+readonly -> desabilita inputs, botões, etc e impede que você mexa neles, mas deixa você focar
+
+
+
+
+
+
+
+
+
+css:
+
+width: 100%; -> porcentagem que ocupa na tela
+margin -> faz uma margem
+border: 1px solid black; -> borda da tabela, tamanho, se ela é solida, e cor
+padding: 10px; -> espaçamento 
+text-align: center; -> alinhamento do texto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+<label for="texto" value="Teste">Texto: </label>
+                <input type="text" name="texto" id="textoID" value="kkkkkkkkk" readonly> </input>
+                <br><br>
+                <label for="senha">Senha: </label>
+                <input type="password" name="senha" value=""> </input>
+                <br><br>
+                <label for="email">email: </label>
+                <input type="email" name="email" value=""> </input><br>
+                <button type="submit">Enviar</button><br>
+                <button type="submit" value="Salva"> salva</button>
+                <br><br>
+                <label for="numero">Numero: </label>
+                <input type="number" name="numero" value=""> </input>
+                <br><br>
+                <label for="chequiboxis">chega caixa: </label><br>
+                <input type="checkbox" name="checkbox[]" value="Op1">op 1</input><br>
+                <input type="checkbox" name="checkbox[]" value="Op2">op 2</input><br>
+                <input type="checkbox" name="checkbox[]" value="Op3">op 3</input><br>
+                <br>
+                <label for="selcao">Selecao: </label><br>
+                <input type="radio" nome="selcao" value="OP1"> op1 </input><br>
+                <input type="radio" nome="selcao" value="OP2"> op2 </input><br>
+                <input type="radio" nome="selcao" value="OP3"> op3 </input><br>
+
+                <label for="data">Date: </label><br>
+                <input type="date" nome="data" value=""> dateeee </input><br><br>
+                <label for="datah">Date: </label><br>
+                <input type="datetime-local" nome="datah" value=""> dateeee timeeeeeeee </input><br>
+
+                <br><br>
+                <label for="Selecionar">SElecionar</label>
+                <select name="selecinar">
+                    <option value="op11">op1</option>
+                    <option value="op22">op2</option>
+                    <option value="op33">op3</option>
+                </select>
+                <br>
+                <textarea name="Area" cols="30" rows="10">gfd</textarea>
+//
